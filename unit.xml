@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.345000000000001" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-07-10T14:53:04" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="patient medical records test" timestamp="2020-07-10T14:53:04" tests="6" file="D:\projects\HospitalApp\hospitally\test\test.js" failures="2" time="6.345000000000001">
+    <testcase name="patient medical records test Should render the filter view initially" time="0.074" classname="Should render the filter view initially">
+    </testcase>
+    <testcase name="patient medical records test Should not start fetching the data if the disabled value is selected in the select menu" time="0.079" classname="Should not start fetching the data if the disabled value is selected in the select menu">
+    </testcase>
+    <testcase name="patient medical records test Should show the loader when a valid value is selected from the select dropdown" time="0.144" classname="Should show the loader when a valid value is selected from the select dropdown">
+    </testcase>
+    <testcase name="patient medical records test Should render the profile view with user data when the data is fetched" time="2.444" classname="Should render the profile view with user data when the data is fetched">
+    </testcase>
+    <testcase name="patient medical records test Should render the table data correctly when the data is fetched" time="2.047" classname="Should render the table data correctly when the data is fetched">
+      <failure message="expected &apos;13/8/2019&apos; to equal &apos;10/09/2019&apos;" type="AssertionError"><![CDATA[AssertionError: expected '13/8/2019' to equal '10/09/2019'
+    at test\utils.js:125:47
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testcase>
+    <testcase name="patient medical records test Should fetch and render table data when the selected patient changes" time="1.557" classname="Should fetch and render table data when the selected patient changes">
+      <failure message="expected &apos;21/1/2019&apos; to equal &apos;13/09/2019&apos;" type="AssertionError"><![CDATA[AssertionError: expected '21/1/2019' to equal '13/09/2019'
+    at test\utils.js:125:47
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
